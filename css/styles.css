@@ -505,8 +505,7 @@ img {
   width: 453px;
 }
 
-.subscribe-label {
-  display: block;
+.form-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -514,6 +513,14 @@ img {
   color: #fff;
 
   margin-bottom: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-label {
 }
 
 .input-and-button-wrapper {
@@ -529,8 +536,7 @@ img {
   height: 40px;
   outline: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  padding: 8px 16px;
-  margin-right: 24px;
+  padding-left: 16px;
 }
 
 .subscribe-input:focus {
@@ -548,11 +554,19 @@ img {
 .subscription-button {
   cursor: pointer;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 8px 24px;
   border-radius: 4px;
-  padding: 8px 24px;
-  width: 165px;
+  min-width: 165px
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
@@ -569,16 +583,9 @@ img {
   background-color: #404bbf;
 }
 
-.subscribe-button-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
-}
 .subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 /* #endregion footer */
 

@@ -539,10 +539,6 @@ img {
   padding-left: 16px;
 }
 
-.subscribe-input:focus {
-  border: 1px solid #4d5ae5;
-}
-
 .subscribe-input::placeholder {
   font-weight: 400;
   font-size: 12px;

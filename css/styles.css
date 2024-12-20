@@ -808,12 +808,6 @@ img {
   text-decoration: underline;
 }
 
-.form-button-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .send-button {
   display: block;
   cursor: pointer;
@@ -824,6 +818,7 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
+  margin: 0 auto;
 
   font-weight: 500;
   font-size: 16px;
